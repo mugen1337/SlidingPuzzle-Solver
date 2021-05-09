@@ -118,9 +118,11 @@ def main():
         print("invalid board")
         return
     
+    print("...")
+    
     res = solve(board)
 
-    print("Shortest path : ", res)
+    print("Operations : ", res)
 
 
 if __name__ == "__main__":
